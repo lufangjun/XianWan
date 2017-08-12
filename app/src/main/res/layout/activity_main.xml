@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xw.xianwan.MainActivity">
+
+    <EditText
+        android:id="@+id/appid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入appid" />
+
+    <EditText
+        android:id="@+id/secret"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入appsecret" />
+
+    <EditText
+        android:id="@+id/appsign"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入appsign" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="打开h5广告列表页"/>
+</LinearLayout>
